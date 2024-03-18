@@ -17,7 +17,7 @@ window.onload = () => {
   // ボタンクリック時のイベント
   sideMenuToggle.addEventListener("click", () => {
     // 表示状態を判定
-    page.value.style.cssText = pageMarginLeft(sideMenuStatus.value);
+    page.style.cssText = pageMarginLeft(sideMenuStatus.value);
 
     sideMenuStatus.value = toggleStatus(sideMenuStatus.value);
   });
