@@ -1,4 +1,4 @@
-import * as Vue from "https://unpkg.com/vue@3/dist/vue.global.js";
+import * as Vue from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
 
 const sideMenuStatus = Vue.ref(true);
 
