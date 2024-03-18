@@ -1,6 +1,6 @@
-import { ref } from "https://unpkg.com/vue@3/dist/vue.global.js";
+import * as Vue from "https://unpkg.com/vue@3/dist/vue.global.js";
 
-const sideMenuStatus = ref(true);
+const sideMenuStatus = Vue.ref(true);
 
 const pageMarginLeft = (status) =>
   status ? "margin-left: -230px" : "margin-left: 0px";
